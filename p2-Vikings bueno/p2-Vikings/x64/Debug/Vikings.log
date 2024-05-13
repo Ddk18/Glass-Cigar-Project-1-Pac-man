@@ -1,0 +1,8 @@
+﻿  Game.cpp
+  Scene.cpp
+  TileMap.cpp
+C:\Users\guillemgm3\Downloads\p2-Vikings bueno\p2-Vikings\src\TileMap.cpp(103,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\guillemgm3\Downloads\p2-Vikings bueno\p2-Vikings\src\TileMap.cpp(104,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  Vikings.vcxproj -> C:\Users\guillemgm3\Downloads\p2-Vikings bueno\p2-Vikings\x64\Debug\Vikings.exe
