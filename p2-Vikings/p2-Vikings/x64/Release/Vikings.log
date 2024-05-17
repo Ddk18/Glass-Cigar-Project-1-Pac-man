@@ -1,9 +1,0 @@
-﻿  Game.cpp
-C:\Users\Enzo\Downloads\p2-Vikings\p2-Vikings\src\Scene.h(2,10): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
-  Globals.cpp
-  main.cpp
-C:\Users\Enzo\Downloads\p2-Vikings\p2-Vikings\src\Scene.h(2,10): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
-  Scene.cpp
-C:\Users\Enzo\Downloads\p2-Vikings\p2-Vikings\src\Scene.h(2,10): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
-  TileMap.cpp
-C:\Users\Enzo\Downloads\p2-Vikings\p2-Vikings\src\TileMap.h(2,10): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
