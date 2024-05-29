@@ -1,0 +1,13 @@
+﻿Main.obj : error LNK2019: unresolved external symbol _InitWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _CloseWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _WindowShouldClose referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _ClearBackground referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _BeginDrawing referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _EndDrawing referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _SetTargetFPS referenced in function _main
+Maze.obj : error LNK2019: unresolved external symbol _DrawRectangle referenced in function "void __cdecl DrawMaze(void)" (?DrawMaze@@YAXXZ)
+Pacman.obj : error LNK2019: unresolved external symbol _GetFrameTime referenced in function "void __cdecl UpdatePacman(struct Pacman &)" (?UpdatePacman@@YAXAAUPacman@@@Z)
+Pacman.obj : error LNK2019: unresolved external symbol _IsKeyDown referenced in function "void __cdecl HandleInput(struct Pacman &)" (?HandleInput@@YAXAAUPacman@@@Z)
+Pacman.obj : error LNK2019: unresolved external symbol _DrawCircleV referenced in function "void __cdecl DrawPacman(struct Pacman const &)" (?DrawPacman@@YAXABUPacman@@@Z)
+Pill.obj : error LNK2001: unresolved external symbol _DrawCircleV
+C:\Users\guillemgm3\source\repos\Cafeina (enzo no fumes)\Debug\Cafeina (enzo no fumes).exe : fatal error LNK1120: 11 unresolved externals
