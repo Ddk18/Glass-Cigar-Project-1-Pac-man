@@ -1,14 +1,11 @@
-#pragma once
 #ifndef PILL_H
 #define PILL_H
-
-#include "raylib.h"
-#include "Pacman.h"
 #include "Config.h"
 
-// Estructura para los puntos (píldoras)
+#include "raylib.h"
+
 struct Pill {
-    Vector2 position;
+    Vector2 position; // Cambiar a Vector2 para representar la posición de la píldora
     bool active;
 };
 

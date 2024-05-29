@@ -1,16 +1,17 @@
+#include "raylib.h"
 #include "Pacman.h"
 #include "Pill.h"
 #include "Maze.h"
 #include "Config.h"
-#include "raylib.h"
 #include <iostream>
+
 using namespace std;
 
 int main() {
     // Inicializar la ventana
     InitWindow(screenWidth, screenHeight, "Pac-Man con Raylib");
 
-    // Inicializar Pac-Man
+    // Inicializar Pacman
     Pacman pacman;
     InitPacman(pacman);
 
@@ -21,7 +22,7 @@ int main() {
     SetTargetFPS(60); // Configurar el FPS objetivo
 
     while (!WindowShouldClose()) {
-        // Movimiento del Pac-Man
+        // Movimiento del Pacman
         HandleInput(pacman);
         UpdatePacman(pacman);
 
@@ -29,7 +30,7 @@ int main() {
         CheckPillCollision(pacman, pills);
 
         // Dibujar todo
-        BeginDrawing();  // Asegúrate de usar BeginDrawing() en lugar de Begin
+        BeginDrawing();
         ClearBackground(BLACK);
 
         // Dibujar laberinto
@@ -38,10 +39,10 @@ int main() {
         // Dibujar píldoras
         DrawPills(pills);
 
-        // Dibujar Pac-Man
+        // Dibujar Pacman
         DrawPacman(pacman);
 
-        EndDrawing();  // Asegúrate de usar EndDrawing() en lugar de End
+        EndDrawing();
     }
 
     // Cerrar la ventana y liberar recursos
@@ -49,3 +50,4 @@ int main() {
 
     return 0;
 }
+

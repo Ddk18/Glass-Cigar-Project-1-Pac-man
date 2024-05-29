@@ -1,15 +1,14 @@
-#pragma once
 #ifndef PACMAN_H
 #define PACMAN_H
 
-#include "raylib.h"
-#include "Config.h"
+#include "raylib.h" // Asegúrate de que esta línea está presente
 
-// Estructura para el Pac-Man
 struct Pacman {
-    Vector2 position;
-    Vector2 direction;
+    int x;
+    int y;
+    int size;
     int speed;
+    Color color; // Color es un tipo definido en raylib.h
 };
 
 void InitPacman(Pacman& pacman);

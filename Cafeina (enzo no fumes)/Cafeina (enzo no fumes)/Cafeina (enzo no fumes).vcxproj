@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\guillemgm3\Downloads\raylib\raylib\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\guillemgm3\Downloads\raylib\raylib\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Enzo\OneDrive\Dokumente\GitHub\Glass-Cigar-Project-1-Pac-man\Cafeina (enzo no fumes)\Cafeina (enzo no fumes)\raylib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Enzo\OneDrive\Dokumente\GitHub\Glass-Cigar-Project-1-Pac-man\Cafeina (enzo no fumes)\Cafeina (enzo no fumes)\raylib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -90,12 +90,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\guillemgm3\Downloads\raylib\raylib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Enzo\OneDrive\Dokumente\GitHub\Glass-Cigar-Project-1-Pac-man\Cafeina (enzo no fumes)\Cafeina (enzo no fumes)\raylib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\guillemgm3\Downloads\raylib\raylib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Enzo\OneDrive\Dokumente\GitHub\Glass-Cigar-Project-1-Pac-man\Cafeina (enzo no fumes)\Cafeina (enzo no fumes)\raylib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

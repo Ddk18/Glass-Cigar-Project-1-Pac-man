@@ -1,4 +1,8 @@
 #include "Pill.h"
+#ifndef PILL_H
+#define PILL_H
+#include "raylib.h
+
 
 void InitPills(Pill pills[gridWidth][gridHeight]) {
     for (int x = 0; x < gridWidth; x++) {
@@ -26,3 +30,6 @@ void CheckPillCollision(Pacman& pacman, Pill pills[gridWidth][gridHeight]) {
         pills[gridX][gridY].active = false;
     }
 }
+
+}
+#endif
